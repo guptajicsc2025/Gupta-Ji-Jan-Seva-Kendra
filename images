@@ -1,0 +1,6 @@
+ <section id="gallery" class="gallery">
+      <h2>Photo</h2>
+       <img src="images/photo1.jpg" onclick="openLightbox(this.src)">
+       <img src="images/photo2.jpg" onclick="openLightbox(this.src)">
+      </div>
+    </section>
