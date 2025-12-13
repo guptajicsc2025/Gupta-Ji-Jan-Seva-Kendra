@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSC Centre - Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Gupta Ji Jan Seva Kendra</h1>
+        <p>Your Trusted Service Center</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="services">
+        <h2>Our Services</h2>
+
+        <ul>
+            <li>Aadhar Services</li>
+            <li>Pan Card Services</li>
+            <li>Online Form Filling</li>
+            <li>Ticket Booking</li>
+            <li>Banking Services</li>
+            <li>Bill Payments</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 CSC Centre. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gupta Ji Jan Seva Kendra</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#f5f5f5; }
+    header { background:#1a73e8; color:white; padding:30px; text-align:center; }
+    nav { background:#222; display:flex; justify-content:center; gap:20px; padding:12px; }
+    nav a { color:white; text-decoration:none; }
+    .container { width:90%; margin:auto; }
+    .cards { display:grid; grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); gap:20px; margin-top:20px; }
+    .card { background:white; padding:20px; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.1); }
+    .contact-box, .gallery, .booking { background:white; padding:20px; margin-top:20px; border-radius:10px; }
+    footer { background:#111; color:white; text-align:center; padding:15px; margin-top:40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gupta Ji Jan Seva Kendra</h1>
+    <p>Your Trusted Digital Service Centre</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+    <a href="#location">Location</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#booking">Book Appointment</a>
+  </nav>
+
+  <div class="container">
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="cards">
+        <div class="card">Aadhar Update & Print</div>
+        <div class="card">PAN Card Apply</div>
+        <div class="card">Online Form Filling</div>
+        <div class="card">Ticket Booking</div>
+        <div class="card">Banking & AEPS</div>
+        <div class="card">Bill Payments</div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-box">
+      <h2>WhatsApp Contact</h2>
+      <p>Click below to chat directly:</p>
+      <a href="https://wa.me/9889435442" target="_blank">
+        <button>Chat on WhatsApp</button>
+      </a>
+    </section>
+
+    <section id="location" class="contact-box">
+      <h2>Our Location</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1258.7680653378873!2d80.87609008816251!3d26.829335364736753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bff4c1ae1a7c3%3A0x7da3176366fed4a2!2sGupta%20ji%20CSC%20jan%20seva%20kendra!5e0!3m2!1sen!2sin!4v1765607573082!5m2!1sen!2sin"
+  width="100%"
+  height="300"
+  style="border:0; border-radius:10px;"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <h2>Photo</h2>
+       <img src="images/photo1.jpg" onclick="openLightbox(this.src)">
+       <img src="images/photo2.jpg" onclick="openLightbox(this.src)">
+      </div>
+    </section>
+
+    <section id="booking" class="booking">
+      <h2>Book an Appointment</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required /><br /><br />
+        <input type="text" placeholder="Service Needed" required /><br /><br />
+        <input type="datetime-local" required /><br /><br />
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </div> 
+
+  <footer>
+    © 2025 Gupta Ji Jan Seva Kendra – All Rights Reserved
+  </footer>
+</body>
+</html>
